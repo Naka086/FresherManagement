@@ -23,7 +23,7 @@ public class LoginPage implements ActionListener {
     JLabel messageLabel = new JLabel("Welcome home");
     HashMap<String, String> logininfo = new HashMap();
 
-    LoginPage(HashMap<String, String> loginInfoOriginal) {
+    public LoginPage(HashMap<String, String> loginInfoOriginal) {
         this.logininfo = loginInfoOriginal;
         this.userIDLabel.setBounds(50, 100, 75, 25);
         this.userPasswordLabel.setBounds(50, 150, 75, 25);
